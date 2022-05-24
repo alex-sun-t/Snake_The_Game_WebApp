@@ -1,0 +1,15 @@
+.game-zone {
+    border:5px solid black;
+    width:700px ;
+    height:700px;
+    transition: all 0.9s;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.game-zone-play{
+    border-radius: 50px;
+    box-shadow: 0 20px 40px 0px black;
+    margin-top: 0px;
+    transition: all 2s;
+}

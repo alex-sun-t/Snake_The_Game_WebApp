@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.ico" type="icon.ico">
+
+    <link rel="stylesheet" href="CSS/Game-zone.css">
+    <link rel="stylesheet" href="CSS/Global.css">
+    <link rel="stylesheet" href="CSS/Menu.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+
+    <title>Snake - The Game</title>
+</head>
+<body>
+    <div class="score-block">
+        <h2 id="score"></h2>
+    </div>
+    <div class="app"> 
+        <div class="menu-block menu-block-hide">
+            <div class="txt-block">
+                <h1 class="snake-txt">Snake</h1>
+            </div>
+            <div class="menu">
+                <button id="startBtn">Start Game</button>
+            </div>
+        </div>
+        <div class="game-zone game-zone-play">
+            <canvas width="700" height="700" id="place-game"></canvas>
+        </div>
+    </div>
+</body>
+    <script src="JS/Move.js"></script>
+    <script src="JS/Food.js"></script>
+    <script src="JS/Tail.js"></script>
+    <script src="JS/Game.js"></script>
+</html>
